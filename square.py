@@ -21,4 +21,24 @@ class Triangle:
     def area(self):
         return 0.5 * self.base * self.height
         
-        
+
+class Square:
+    def __init__(self, a) -> None:
+        self.a = a
+    def area(self):
+        return self.a ** 2
+
+class Trapezoid:
+    def __init__(self, a, b, h) -> None:
+        self.a = a
+        self.b = b  
+        self.h = h
+    def area(self):
+        return 0.5 * (self.a + self.b) * self.h
+
+class Parallelogram:
+    def __init__(self, a, h) -> None:
+        self.a = a
+        self.h = h
+    def area(self):
+        return self.a * self.h
