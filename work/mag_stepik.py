@@ -55,4 +55,3 @@ print(f"Осталось хп мага {mag.hp}")
 print(f"Обычная атака Братьев {brother.attack()}")
 print(f"Защитная атака {brother.attack(shield=True)}")
 print(f"Осталось хп у братьев {brother.hp}")
-
